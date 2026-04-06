@@ -1,0 +1,3 @@
+customer_grade,customer_count,grade_total_amount,grade_over_61_total_amount,risky_customer_count,risky_customer_ratio,grade_over_61_ratio
+Basic,12,16470,3390,6,0.5,0.2058287795992714
+VIP,6,21560,6130,3,0.5,0.28432282003710574
