@@ -2,6 +2,10 @@
 
 ## Project Overview
 
+AR Aging analysis project for identifying long-outstanding receivables and risky customers.  
+Built with SQLite, SQL, Python, pandas, and matplotlib.  
+Outputs customer-level reports, grade-level risk summaries, CSV exports, and a risk chart.
+
 이 프로젝트는 매출채권 데이터를 SQL과 Python으로 분석하여, AR Aging 구간별 채권 현황과 장기 미수 위험 고객을 식별하는 것을 목표로 합니다.
 
 고객별 채권을 `0~30일`, `31~60일`, `61~90일`, `91일 이상` 구간으로 나누고, 고객 단위 및 고객 등급 단위에서 위험도를 요약합니다. 또한 SQL 결과를 CSV 파일로 저장하고, 고위험 고객의 장기 미수 금액을 시각화하여 단순 거래 집계가 아닌 채권 건전성 관점의 분석 결과를 제공합니다.
