@@ -28,7 +28,7 @@ ar-aging-risk-analyzer/
 ├── practice.db
 ├── setup_data.py
 ├── main.py
-├── test.py
+├── inspect_sql_output.py
 ├── sql/
 │   ├── 01_customer_aging_summary.sql
 │   ├── 02_grade_risk_summary.sql
@@ -102,7 +102,7 @@ python3 main.py
 ```
 3. SQL 테스트 실행
 ```
-python3 test.py
+python3 inspect_sql_output.py
 ```
 
 ## Generated Result
@@ -111,6 +111,12 @@ python3 test.py
 - output/grade_risk_summary.csv
 - output/high_risk_customers.csv
 - output/high_risk_customers_chart.png
+
+### High Risk Customers Chart
+
+고위험 고객의 61일 이상 장기 미수 금액(`over_61_total_amount`)을 시각화한 결과입니다.
+
+![High Risk Customers Chart](output/high_risk_customers_chart.png)
 
 ## What I Learned
 
